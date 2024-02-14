@@ -1281,7 +1281,7 @@ paths.forEach(path => {
     if (services && services.length > 0) {
         path.style.fill = "#F07AA1";
         path.addEventListener('mouseenter', function() {
-            this.style.fill = "#B74A6F";
+            this.style.fill = 'linear-gradient(#FF347D, #827DED)';
         });
         path.addEventListener('mouseleave', function() {
             this.style.fill = "#F07AA1";
