@@ -440,13 +440,836 @@ const country_code_mapping = {
     };
 
     const countryServiceData = {
-        "Afghanistan": ["Mobile Top Up", "Gift Cards"],
-        "Albania": ["Mobile Top Up", "Gift Cards"],
-        "Algeria": ["Mobile Top Up", "Gift Cards"],
-        "American Samoa": ["Mobile Top Up"],
-        "Andorra": ["Gift Cards", "Bank Wire"],
-        "India": ["Mobile Top Up", "Gift Cards", "Bank Wire"]
-        };
+  "Afghanistan": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Albania": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Algeria": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "American Samoa": [
+    "Mobile Top Up"
+  ],
+  "Andorra": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Angola": [
+    "Mobile Top Up"
+  ],
+  "Anguilla": [
+    "Mobile Top Up"
+  ],
+  "Antigua and Barbuda": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Argentina": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "Armenia": [
+    "Gift Cards"
+  ],
+  "Aruba": [
+    "Mobile Top Up"
+  ],
+  "Australia": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "Austria": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Azerbaijan": [
+    "Gift Cards"
+  ],
+  "Bahamas": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Bahrain": [
+    "Gift Cards"
+  ],
+  "Bangladesh": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Mobile Wallet"
+  ],
+  "Barbados": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Belgium": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Belize": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Benin": [
+    "Mobile Top Up",
+    "Bank Wire for Individuals",
+    "Mobile Wallet"
+  ],
+  "Bermuda": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Bhutan": [
+    "Gift Cards"
+  ],
+  "Bolivia": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "Botswana": [
+    "Gift Cards",
+    "Mobile Wallet"
+  ],
+  "Brazil": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "British Virgin Islands": [
+    "Mobile Top Up"
+  ],
+  "Brunei Darussalam": [
+    "Gift Cards"
+  ],
+  "Bulgaria": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Burkina Faso": [
+    "Mobile Top Up",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account",
+    "Mobile Wallet"
+  ],
+  "Burundi": [
+    "Mobile Top Up",
+    "Mobile Wallet"
+  ],
+  "Cambodia": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Mobile Wallet"
+  ],
+  "Cameroon": [
+    "Mobile Top Up",
+    "Bank Wire for Individuals",
+    "Mobile Wallet"
+  ],
+  "Canada": [
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "Cape Verde": [
+    "Mobile Top Up"
+  ],
+  "Cayman Island": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Central African Republic": [
+    "Mobile Wallet"
+  ],
+  "Chad": [
+    "Mobile Wallet"
+  ],
+  "Chile": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "China": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Mobile Wallet"
+  ],
+  "Colombia": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account",
+    "Mobile Wallet"
+  ],
+  "Comoros": [
+    "Mobile Top Up"
+  ],
+  "Congo": [
+    "Gift Cards",
+    "Mobile Wallet"
+  ],
+  "Cook Islands": [
+    "Gift Cards"
+  ],
+  "Costa Rica": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "Croatia": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Cuba": [
+    "Mobile Top Up"
+  ],
+  "Curacao": [
+    "Mobile Top Up"
+  ],
+  "Cyprus": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Czech Republic": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Denmark": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Dominica": [
+    "Mobile Top Up"
+  ],
+  "Dominican Republic": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Ecuador": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "Egypt": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "El Salvador": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Estonia": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Ethiopia": [
+    "Mobile Top Up",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Faroe Islands": [
+    "Gift Cards"
+  ],
+  "Fiji": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Finland": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "France": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "French Guiana": [
+    "Gift Cards"
+  ],
+  "Gabon": [
+    "Mobile Wallet"
+  ],
+  "Gambia": [
+    "Mobile Top Up"
+  ],
+  "Georgia": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Germany": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Ghana": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account",
+    "Mobile Wallet"
+  ],
+  "Gibraltar": [
+    "Gift Cards"
+  ],
+  "Greece": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Greenland": [
+    "Gift Cards"
+  ],
+  "Grenada": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Guadeloupe": [
+    "Gift Cards"
+  ],
+  "Guatemala": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Guinea": [
+    "Mobile Top Up"
+  ],
+  "Guinea Conakry": [
+    "Mobile Wallet"
+  ],
+  "Guinea-Bissau": [
+    "Mobile Top Up",
+    "Mobile Wallet"
+  ],
+  "Guyana": [
+    "Mobile Top Up"
+  ],
+  "Haiti": [
+    "Mobile Top Up",
+    "Mobile Wallet"
+  ],
+  "Honduras": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Hong Kong": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Hungary": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Iceland": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "India": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Indonesia": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account",
+    "Mobile Wallet"
+  ],
+  "Ireland": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Israel": [
+    "Gift Cards"
+  ],
+  "Italy": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Ivory Coast": [
+    "Mobile Top Up",
+    "Bank Wire for Individuals",
+    "Mobile Wallet"
+  ],
+  "Jamaica": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Japan": [
+    "Gift Cards"
+  ],
+  "Jordan": [
+    "Gift Cards"
+  ],
+  "Kazakhstan": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Kenya": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account",
+    "Mobile Wallet"
+  ],
+  "Kuwait": [
+    "Gift Cards"
+  ],
+  "Kyrgyzstan": [
+    "Mobile Top Up"
+  ],
+  "Latvia": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Lebanon": [
+    "Gift Cards"
+  ],
+  "Lesotho": [
+    "Gift Cards"
+  ],
+  "Liberia": [
+    "Mobile Top Up",
+    "Bank Wire for Individuals",
+    "Mobile Wallet"
+  ],
+  "Liechtenstein": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Lithuania": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Luxembourg": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Madagascar": [
+    "Mobile Top Up",
+    "Mobile Wallet"
+  ],
+  "Malawi": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Mobile Wallet"
+  ],
+  "Malaysia": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Maldives": [
+    "Gift Cards"
+  ],
+  "Mali": [
+    "Mobile Top Up",
+    "Mobile Wallet"
+  ],
+  "Malta": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Marshall Islands": [
+    "Gift Cards"
+  ],
+  "Martinique": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Mauritania": [
+    "Mobile Top Up"
+  ],
+  "Mauritius": [
+    "Gift Cards"
+  ],
+  "Mexico": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Moldova": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Monaco": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Mongolia": [
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "Montserrat": [
+    "Mobile Top Up"
+  ],
+  "Morocco": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Mozambique": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Mobile Wallet"
+  ],
+  "Myanmar": [
+    "Mobile Top Up"
+  ],
+  "Nauru": [
+    "Mobile Top Up"
+  ],
+  "Nepal": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account",
+    "Mobile Wallet"
+  ],
+  "Netherland Antilles": [
+    "Mobile Top Up"
+  ],
+  "Netherlands": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "New Caledonia": [
+    "Gift Cards"
+  ],
+  "New Zealand": [
+    "Gift Cards"
+  ],
+  "Nicaragua": [
+    "Mobile Top Up"
+  ],
+  "Nigeria": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "Niue": [
+    "Gift Cards"
+  ],
+  "North Macedonia": [
+    "Gift Cards"
+  ],
+  "Norway": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Oman": [
+    "Gift Cards"
+  ],
+  "Pakistan": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Mobile Wallet"
+  ],
+  "Palau": [
+    "Gift Cards"
+  ],
+  "Panama": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "Papua New Guinea": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Paraguay": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "Peru": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "Philippines": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account",
+    "Mobile Wallet"
+  ],
+  "Poland": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Portugal": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Qatar": [
+    "Gift Cards"
+  ],
+  "Reunion": [
+    "Gift Cards"
+  ],
+  "Romania": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Rwanda": [
+    "Mobile Top Up",
+    "Bank Wire for Individuals",
+    "Mobile Wallet"
+  ],
+  "Saba": [
+    "Mobile Top Up"
+  ],
+  "Saint Kitts and Nevis": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Saint Lucia": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Saint Martin": [
+    "Mobile Top Up"
+  ],
+  "Samoa": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "San Marino": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Saudi Arabia": [
+    "Gift Cards"
+  ],
+  "Senegal": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Mobile Wallet"
+  ],
+  "Serbia": [
+    "Gift Cards"
+  ],
+  "Seychelles": [
+    "Gift Cards"
+  ],
+  "Sierra Leone": [
+    "Mobile Top Up",
+    "Bank Wire for Individuals",
+    "Mobile Wallet"
+  ],
+  "Singapore": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Sint Eustatius": [
+    "Mobile Top Up"
+  ],
+  "Sint Marteen": [
+    "Mobile Top Up"
+  ],
+  "Slovakia": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Slovenia": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Solomon Islands": [
+    "Gift Cards"
+  ],
+  "South Africa": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "South Korea": [
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "South Sudan": [
+    "Mobile Wallet"
+  ],
+  "Spain": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Sri Lanka": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "St. Vincent & Grenadines": [
+    "Mobile Top Up"
+  ],
+  "Suriname": [
+    "Mobile Top Up"
+  ],
+  "Swaziland": [
+    "Mobile Top Up"
+  ],
+  "Sweden": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Switzerland": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Taiwan": [
+    "Gift Cards"
+  ],
+  "Tajikistan": [
+    "Gift Cards"
+  ],
+  "Tanzania": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account",
+    "Mobile Wallet"
+  ],
+  "Thailand": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Togo": [
+    "Mobile Top Up",
+    "Mobile Wallet"
+  ],
+  "Tonga": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Trinidad and Tobago": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Tunisia": [
+    "Mobile Top Up"
+  ],
+  "Turkey": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account",
+    "Mobile Wallet"
+  ],
+  "Turks and Caicos Islands": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Uganda": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account",
+    "Mobile Wallet"
+  ],
+  "United Arab Emirates": [
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "United Kingdom": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Uruguay": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals"
+  ],
+  "USA": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Uzbekistan": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Vanuatu": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Vatican City": [
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account"
+  ],
+  "Venezuela": [
+    "Mobile Top Up"
+  ],
+  "Vietnam": [
+    "Mobile Top Up",
+    "Gift Cards",
+    "Bank Wire for Individuals",
+    "Business Payments to Bank Account",
+    "Mobile Wallet"
+  ],
+  "Yemen": [
+    "Mobile Top Up",
+    "Mobile Wallet"
+  ],
+  "Zambia": [
+    "Mobile Top Up",
+    "Gift Cards"
+  ],
+  "Zimbabwe": [
+    "Mobile Top Up",
+    "Mobile Wallet"
+  ]
+};
 
 const paths = document.querySelectorAll("#mapsvg path");
 
