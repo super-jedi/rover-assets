@@ -1279,12 +1279,12 @@ paths.forEach(path => {
     const services = countryServiceData[country];
 
     if (services && services.length > 0) {
-        path.style.fill = "#F07AA1";
+        path.style.fill = "#FF337E";
         path.addEventListener('mouseenter', function() {
-            this.style.fill = "#827DED";
+            this.style.fill = "#bf66d6";
         });
         path.addEventListener('mouseleave', function() {
-            this.style.fill = "#F07AA1";
+            this.style.fill = "#FF337E";
         });
     }
 });
