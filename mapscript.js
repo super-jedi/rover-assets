@@ -1279,14 +1279,30 @@ paths.forEach(path => {
     const services = countryServiceData[country];
 
     if (services && services.length > 0) {
-        path.style.fill = "#FF337E";
-        path.addEventListener('mouseenter', function() {
-            this.style.fill = "#bf66d6";
-        });
-        path.addEventListener('mouseleave', function() {
-            this.style.fill = "#FF337E";
-        });
+        path.style.fill = "#FF337E"; // Set color for countries with services
+    } else {
+        path.style.fill = "#1B1B1B"; // Set color for countries without services
     }
+
+    path.addEventListener('mouseenter', function() {
+        paths.forEach(otherPath => {
+            if (otherPath !== this) {
+                otherPath.style.fill = "#0B0B0B"; // Change color of other countries
+            }
+        });
+    });
+
+    path.addEventListener('mouseleave', function() {
+        paths.forEach(otherPath => {
+            const otherCountry = country_code_mapping[otherPath.getAttribute("class")];
+            const otherServices = countryServiceData[otherCountry];
+            if (otherServices && otherServices.length > 0) {
+                otherPath.style.fill = "#FF337E"; // Revert color of countries with services
+            } else {
+                otherPath.style.fill = "#1B1B1B"; // Revert color of countries without services
+            }
+        });
+    });
 });
 
 paths.forEach(path => {
